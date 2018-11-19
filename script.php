@@ -26,5 +26,5 @@ if (!isset($_GET['x'])) {
 	exit;
 }
 
-sequence($a, $b, $_GET['x']); 
+sequence($a, $b, $x); 
 ?>
