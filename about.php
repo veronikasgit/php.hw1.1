@@ -20,6 +20,24 @@
     	</style>
     </head>
     <body>
+
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <?php foreach ($json as $value) {?>
+                <td><?php echo $json[];</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            }
+        </table>
+
+
+
 		<h2>Страница пользователя <?= $name ?></h2>
 		<p><strong>Имя: </strong><?= $name ?></p>
 		<p><strong>Возраст: </strong><?= $age ?></p>
